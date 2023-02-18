@@ -8,6 +8,7 @@ com\portfolio\portfolioback\Service\ImpPersonaService.class
 com\portfolio\portfolioback\Controller\CExperiencia.class
 com\portfolio\portfolioback\Security\MainSecurity.class
 com\portfolio\portfolioback\Security\Controller\Mensaje.class
+com\portfolio\portfolioback\WebConfig.class
 com\portfolio\portfolioback\Controller\CProyecto.class
 com\portfolio\portfolioback\Security\jwt\JwtEntryPoint.class
 com\portfolio\portfolioback\Security\Dto\LoginUsuario.class
