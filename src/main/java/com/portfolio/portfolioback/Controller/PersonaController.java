@@ -26,7 +26,7 @@ public class PersonaController {
     @Autowired
     ImpPersonaService impPersonaService;
     
-    @PostMapping("/personas/crear")
+    @PostMapping("/crear")
     public String createPersona(@RequestBody Persona persona){
         impPersonaService.save(persona);
         return "Persona creada correctamente";
