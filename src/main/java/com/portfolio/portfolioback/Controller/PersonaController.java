@@ -26,12 +26,6 @@ public class PersonaController {
     @Autowired
     ImpPersonaService impPersonaService;
     
-    @PostMapping("/crear")
-    public String createPersona(@RequestBody Persona persona){
-        impPersonaService.save(persona);
-        return "Persona creada correctamente";
-    }
-
     @GetMapping("/lista")
     public ResponseEntity<List<Persona>> list() {
         List<Persona> list = impPersonaService.list();
